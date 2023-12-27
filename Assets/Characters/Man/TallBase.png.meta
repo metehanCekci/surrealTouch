@@ -1,0 +1,4773 @@
+fileFormatVersion: 2
+guid: 8c78eea7c7c71f64cb0ca6130557420f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TallBase_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca15166be475834bab51d0a0068f82c
+      internalID: 1875142310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af436b88e9036394e859df62b5e6fd7b
+      internalID: 300230737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed8d8a2042c67a4597c357c80c2c7ca
+      internalID: -51478329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d094fa2388a79af4dbd1648cf0f7f077
+      internalID: -2093465889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698ee27b2f4a4eb48bc96202efef61e1
+      internalID: 798458890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719a9d51076be764694aac210173423c
+      internalID: 593355237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3165f01aeed805f41a0ba716ca8a3b1b
+      internalID: -1048401864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9f15373c534d244a134cb5c816c7ec
+      internalID: -1265182961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc23803374bd744280f94c5178dbe5d
+      internalID: 781924637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37e7ad61d28edf4bb612c7a64ece898
+      internalID: -951323466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658f5afc87b42a94096800f54a55db25
+      internalID: -1785914174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1288636b5c4f53479865ff69e658b3c
+      internalID: -1288890433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_12
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bdc9aeeaef47e4592322c369e8b0b3
+      internalID: -1547797098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1347.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f0a4df048a55b46adae37175cafdf1
+      internalID: -818749305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6150978df2ba9e4789a570262320995
+      internalID: 1837332334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc497b3a9d889e6458921eeff521f4ef
+      internalID: -1827293440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f947f48af2d38434982870df4cb73876
+      internalID: -1223866363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5709f62d2c78db4c8f03cb309d5b7ec
+      internalID: -918829917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f7e76f391f39d458ededd859e9a772
+      internalID: -879761189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeb9072c2838214ea5b34c533d2ed30
+      internalID: 761985301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29ac7ccee32260429bc81db37f77c6f
+      internalID: 1117713446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43a0a41de4732343b1bb3efd1dfa8f1
+      internalID: -1179242517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9179b483360605f4ba5d43516febebf4
+      internalID: -412459401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_23
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a18073f5c2cf44285a58b2d1460635
+      internalID: -363889722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_24
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74ef35ae93d80745a135d2f4596cdbc
+      internalID: -692413161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_25
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958a6da6eb2ae46468885e72da5e72a9
+      internalID: -340531960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be26cfcbe29a994d83e8e635997971f
+      internalID: 552508764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_27
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1251.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f1eb1d4cae4c34a80a96fc3467f527
+      internalID: -737780639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70ab4751b7c54b4b9ff7df0e28b6c81
+      internalID: -416995934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d91ad3c447ddc459f66ae7a7c779b0
+      internalID: -243271395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec0c8a31f22b7c4b930fb92963df0b9
+      internalID: -1804160532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_31
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6051beb3b7f6b54db51cf9b0866f1f1
+      internalID: 1680767136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cac043658a77bd4c85cb7106a7fd0a9
+      internalID: -224746204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdea99306e39794d8125210a33e2493
+      internalID: 1261536050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_34
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e083833c12bf6145aee562e08875e40
+      internalID: -2087353373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_35
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80775a191894954c8d6df8af2af6612
+      internalID: -2027679389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21de26df722745468859dfe5cce788b
+      internalID: 1171187163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_37
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3aa2f28ddf1a84f82f2b8a6d5a6397
+      internalID: 1853264840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532f99bf0909e354caf5c96059df101b
+      internalID: 1228389912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_39
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbab57f28d55c2499beb3c2b4daf36d
+      internalID: -448276669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_40
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107f7598d6d5efb4298fd3d21c9d75c1
+      internalID: 1256435339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_41
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1155.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc93792fb874d004fa30ea78920daf50
+      internalID: -493540814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6912ebb202affb94bb71ffd69d9215de
+      internalID: 1167481632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fff42ca76475449a711ffbb540fdeb
+      internalID: 1928300683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca7eb7d52b4a0947aa63c9f2b920793
+      internalID: -1988433391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc449bebc9e36f24bacf9b5069a28846
+      internalID: -701217159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1822301733001479949a1a7da35133
+      internalID: 2040085096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007340475ecfacd49863621543782133
+      internalID: 1458748348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a16cdda6e43f7428b225ae702475ba
+      internalID: -1517516744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_49
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eacb64aeceb5746a419e453beade50
+      internalID: 309444551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_50
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91af8fa4deb2c52429b38a1833e60bcb
+      internalID: -706467103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_51
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe9419c776eb2e48b3895ea7d36bffa
+      internalID: 297037505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_52
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc574d38f1cedc94faf5ef2419ff0a3a
+      internalID: 79470905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_53
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97535487e76887c4b9a3f096b549d75b
+      internalID: -981377681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_54
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b57b152c586e1947bbcb934c44499c3
+      internalID: 1307642917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_55
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1059.7333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9202be06b11bafc4cbc3cbfc18905512
+      internalID: -1898723965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d40a4a00470344db534efd8357ddb6
+      internalID: 436635584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783fd3407732ad146b5b28812f4b92b5
+      internalID: 240234736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be467eb341f915439b240d45148bce0
+      internalID: 760093072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7c7200f5b3c8e4dad2a0a78bfaa467
+      internalID: -1162900154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653966cbd21a1024fa002cfd3bf0146a
+      internalID: -385720277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac15a8ffc2294743a26102156b9e031
+      internalID: -733347629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_62
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ab84fd0980d794794410894e18a636
+      internalID: 95794063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_63
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6099b0fb9d3b994ab234bdf4a36dca1
+      internalID: 2043035475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ff9164043e31438d6ef76ce0102a4
+      internalID: 1694745138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_65
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027d40e2a94b9b4459c1f98844010908
+      internalID: -643340033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a76cd05b4100347a4b481b15467828
+      internalID: -1502729199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_67
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e6d355eb20b4a41811dbf351044c39
+      internalID: -1005063183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_68
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9ccd35c542762459bf0bbf52b59841
+      internalID: -917792621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_69
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 963.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587a093f4f4fba9428a090e95aede4fd
+      internalID: -62484302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb55a4f04dafde46965125270aab84c
+      internalID: 129994982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba8afe9a727445478c0d9409955d7ce
+      internalID: -813174735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cc671912af4934eb1814518f2838e0
+      internalID: 164732089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ad7430daa18184da7f280678023cd2
+      internalID: -1930640951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea1879ccbc35aa4086233c5ed381eb2
+      internalID: 383726869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3217b696a78fd69448099d472e16b911
+      internalID: 1440113691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88af624790b5cff499a412b141497453
+      internalID: -976568080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_77
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40ab0a4ad14fe043bc7c60e388d2355
+      internalID: -1228463529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253206fe6bd9c354d9307ec228839a3e
+      internalID: -1499455809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_79
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282c05e170a8e6a4180f23bacad8d133
+      internalID: -1960766156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_80
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fce1d52a50951646b7df1896c6a08b4
+      internalID: -1347865913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_81
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8980c24214582cd4186c8199b19f1057
+      internalID: -705194673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_82
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a035563c015fd4cb1bde417b3fd873
+      internalID: 1121975573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_83
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 867.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764c22cd2c0203947a7de5f842e131b8
+      internalID: -253797826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4b6c09309c13d47b7895275cdffef4
+      internalID: 722095112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_85
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7225c142b76f2404fa51ebe610fe14a9
+      internalID: -999293086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84039669a2176e459d131746f3a12ab
+      internalID: 743873353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_87
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78408d9110e7f124e82987d47a5ea1d9
+      internalID: 1477494475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb89c6e623755c4bb3bf2fc7a97484d
+      internalID: 132583581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92b6fdd8abf86b429b563ecc24ec187
+      internalID: 572394114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_90
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98291b3629f76194cbaa2249c30ed49b
+      internalID: 640808551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_91
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acab4e0089ccbfc44b7f9a5a4b259153
+      internalID: -155983398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_92
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98d1c349b85f354e9cf0925b3d540d0
+      internalID: -1343344526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_93
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100fafadc2a4a6942b1c3376de0809ab
+      internalID: 517166590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_94
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da85164080c3919419d283ac2eaea2d0
+      internalID: -1672249010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_95
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb4b75726de66a4097a43047879497f
+      internalID: 539666322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_96
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e7c1e846776a643a729c6d5ac8cbcc
+      internalID: -1855323642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_97
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 771.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83046cfd3351a448b48f96c91bcbf34
+      internalID: -1956272363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18fc6208bb9eb947a1951caa7d6c82a
+      internalID: 660602648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e68870fb456214bae604cf4b36104b
+      internalID: -369210757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810770ef7382a474c8b996a84e428236
+      internalID: -1554737945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_101
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f581060ca5210bf4994e7e4d0afad86c
+      internalID: 2078804700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5adcd72f44c8e4fbda908f1e6b7dff
+      internalID: 508126385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_103
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a38046f955ad740a2eb5489bfd2271
+      internalID: 1332735421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_104
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec163a0fd2de1c46b5b3740ba22ff85
+      internalID: 2044383058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_105
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b911a4ed0e5064abab29802933f51a
+      internalID: 1037891342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_106
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894186f557d089a458b22aa920ab402a
+      internalID: -1801049730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_107
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609d4302a119273489d6f6beca94536e
+      internalID: -1972657024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_108
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f890a658e6127947882e17702266fbc
+      internalID: 1109968254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_109
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2fa622a1c566442ac5edcaac96262b
+      internalID: -1033797703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_110
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf8b59e049365749af877c5b70e6c65
+      internalID: -1717296995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_111
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 675.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959316c6b99a7ce4c873d494d88b8b2d
+      internalID: 987841167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14600aca5f5ad684f9defcabe3c93944
+      internalID: 264959525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ef379f4abce5044ae5cc9e1a171cca
+      internalID: 561510832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f37db04ee95af945a48c64f1ecf87f8
+      internalID: 528345872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_115
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358669728e8f138499fe2ee608da1435
+      internalID: 1043830978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_116
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546cb47e90eeaec4086fc98bfe8c3b79
+      internalID: 2058452007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_117
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099abf7032a67d544a8944f89071c8a9
+      internalID: -1734471714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_118
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a508ad0d00889488a113456b357c89
+      internalID: 168202770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_119
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842cb6dc37c1dc14e8b769e0caf7b882
+      internalID: 1555829489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_120
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21793981072777e4fa7d42870ffbe187
+      internalID: -450593495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_121
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab00314caeacf3148b653aac3922d19e
+      internalID: 38567315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_122
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7a928bbb8de2b4e9c72670bd535a15
+      internalID: 1897568878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_123
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47d21ef7131ddd4994d9065eab1b78e
+      internalID: -1049092624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_124
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37925bc79576d74fb2e6d78ceb4d2d0
+      internalID: 2082354486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_125
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 579.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c591e25d1e42eb4bbdb2cd72b731f1c
+      internalID: -2039691867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a6370f61102bc4890a0a6749992fed
+      internalID: -221488841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dadf8ba69d2bd428f98c0c76206e1a
+      internalID: -30081657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_128
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56605f5c90e4024883e873037a0eb08
+      internalID: 621775612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_129
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff42079ac8a7d25478f5a8ff5192293c
+      internalID: 553203825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_130
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956881aadfa2e1344957f0b050c5f138
+      internalID: 1328257433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_131
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424c8d7ade802234ca1d64ee640e94b8
+      internalID: 1143590387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_132
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9238122ca94075445b6fb0d637a341e9
+      internalID: -1803320819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_133
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62b713ef1655ba4abaa3c58735ff426
+      internalID: -1187171922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_134
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd47bea5246d154eb21a087b00d6c61
+      internalID: 1577546947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_135
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0dd614b1fca21409f0d422aaa891e4
+      internalID: -274397734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_136
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11536890c6eb26e44bae921f99fd9bf4
+      internalID: 671518892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_137
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b38752bafeccf34f91222ed3449eba9
+      internalID: -967724615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_138
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1396c42980549144b8d63d11987a53f8
+      internalID: -1191748165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_139
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 483.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f42d03e2fd1b0e4c879fce065c19df8
+      internalID: -1886754451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c59985effb56f54ea6f802ec2f5d195
+      internalID: -1699093168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_141
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d988fbb07552414480c3f0b8b07445b
+      internalID: -831493850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_142
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f31f5c8dbe5604eaf2115ff5c1f861
+      internalID: -1841288954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_143
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598ef2f1e88a8da4fac3c73514f907c9
+      internalID: 1822783821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_144
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5728d71e44c877a469a3e473e43efcb8
+      internalID: -694695243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_145
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2feaaa3aaa8e2144b98b035a3b60009
+      internalID: -319090538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_146
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372956ea5f140994a852f24bc45bbcce
+      internalID: -314124100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_147
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abde47844e839d4aac8f0ddf486737f
+      internalID: 1906580740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_148
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224f9894500f19b46b2984afdca82376
+      internalID: 883802764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_149
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0c3ea983d8442428d772ab534faea1
+      internalID: -1302520694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_150
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab38716405218e429d2d43a7dd59661
+      internalID: 1221146856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_151
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9259a6ed35f654d9dd39acc956b2c3
+      internalID: 1866107296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_152
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73a07e7d3c81604a9e3dcf2cc2e25db
+      internalID: -709292659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_153
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 387.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ce6b5f59caadb48994804f231c33bc
+      internalID: -1461674437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15548ef20e0983f4188808fedfb5f13b
+      internalID: -1500741499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_155
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be62f17352d6a0a439483a1a0e21e178
+      internalID: -1235750787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_156
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2927079e48dbed84bb11787c4a56d5d5
+      internalID: 1951578861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_157
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f4806d088095748aecaff79bbc771d
+      internalID: -528257248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_158
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7cdf1ce2924ef4c8fac6be0264c38e
+      internalID: -263394656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_159
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a44406f5ba083468abe1d8c886b612
+      internalID: 1537090068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_160
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6366493b081f8e04394791439eeb13d8
+      internalID: -1698655656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_161
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dfb8f37803b674791e9118b600183a
+      internalID: 1547939604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_162
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629fa38a205b1f941a2ad98ad98f9760
+      internalID: -694558300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_163
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27effd90c3238ab44b618aefa7b2a53f
+      internalID: -1711800520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_164
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aa3f70e309d9f43a91b7f624146325
+      internalID: 1185724561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_165
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf2b3650c13d5049b47904131c620fc
+      internalID: 177367611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_166
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be63cd6bb608605439b1d0f1fec82521
+      internalID: 40572180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_167
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 291.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11538ee7bcc0714bbf009ff7123cec4
+      internalID: -545068091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c7bcc6749386e41806094aa9454278
+      internalID: -529283590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_169
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b1bebe6a94d1948a896d5a8bf556fb
+      internalID: 278250919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_170
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32008df9b7d97b949a6466742167581b
+      internalID: 1368995827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_171
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ec8098c0a97f74abe6f19d4fa080e8
+      internalID: 358807457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_172
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0026cf2aa937bca4aa9ebb565304ca69
+      internalID: -1272382419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_173
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835b21c782e3f304cb55fb45933b7859
+      internalID: 1433159205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_174
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb9dca74c55bd041ae0f8317aa152b7
+      internalID: 1594401705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_175
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3efceedf0e470a458c8182c3e9d281f
+      internalID: -388216810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_176
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3b8a57545528e40891b8f3fac845a4
+      internalID: -346841081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_177
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df148a165b252c4ca4000832bdaf06e
+      internalID: 710746496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_178
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcef37b0dde1104e9ebb6ce00fd2a3f
+      internalID: 701252286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_179
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d54103e778b7d4f86b9061f99f5732
+      internalID: 748928099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_180
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5fdd3f497d591488fd606fb6b3643a
+      internalID: 2146995907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_181
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 195.73334
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255f20758950590498e0cffada231272
+      internalID: -1297848182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14afc4f83da77a42ba86a3d7d30ee35
+      internalID: 1913791394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_183
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc64c7a35fc353b4a890950198ede5bb
+      internalID: 1763459354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_184
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349791def63ddaf429582b417fac5ef8
+      internalID: 2078513093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_185
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3cb2968fd376549b0a31673c112cc9
+      internalID: 90083972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_186
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16addd70d67311c498422fd24f5098a5
+      internalID: 1141348993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_187
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9825c8d7159bc5f43bf837fe80c36513
+      internalID: 450847923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_188
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064f78c98cdb7dd44ad03764b64b4353
+      internalID: 1559765207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_189
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee90d2734a06f54ebfb90c9db2416eb
+      internalID: 1915377216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_190
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfad16c7d8acdc34394ab5a6af726679
+      internalID: -662276847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_191
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a3e96e2e9687f4a941706428d759f4
+      internalID: 965503699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_192
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602e50a83b4ed4540b3111084ff3f39e
+      internalID: -1431288159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_193
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe92232fcb3ebf4591f8482218207d4
+      internalID: 2012501555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_194
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3fc47b0b1f2a34788540bd8b4468a2
+      internalID: -30183388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_195
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 99.73333
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef223a4097031bc4b8990049ac276cae
+      internalID: -674391054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21a9b36af9d2804daf7298c920f6f50
+      internalID: 551804251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_197
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43f6cf45be26ea49ab341229cd01e84
+      internalID: -2061465208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9d647c50cccb54ebab8bb05ac03e84
+      internalID: -1076998834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_199
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd8996bc65c20742983a309ec4ef128
+      internalID: -340287243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_200
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0414ac972eb05cc45b4d4a414a05e5e6
+      internalID: -133766297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_201
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0989317defaed06418201a11a9562ff3
+      internalID: -1988788367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_202
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbe04f5a8bed4f4fbb9ddd8c41459a8
+      internalID: -40110683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_203
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9357f0c86787ac74996c1a0678384f5b
+      internalID: 1021157009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_204
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61366084a3644b469971d0ab2dc5594
+      internalID: 1906311827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_205
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa8e0139f5d5d945a6ee1183b9b152b
+      internalID: -1447673539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_206
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6686691ccab786e499537ade1ae3d631
+      internalID: -1749176058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_207
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1adeb2c7d6f0804b8f2e0a63fd9e584
+      internalID: -1615905811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_208
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3681bdcfd467e704895839e27225bc33
+      internalID: -973103819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TallBase_209
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 3.7333298
+        width: 96
+        height: 96.26667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c886bda012748ae438bb7efcd955b930
+      internalID: 918693583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TallBase_0: 1875142310
+      TallBase_1: 300230737
+      TallBase_10: -1785914174
+      TallBase_100: -1554737945
+      TallBase_101: 2078804700
+      TallBase_102: 508126385
+      TallBase_103: 1332735421
+      TallBase_104: 2044383058
+      TallBase_105: 1037891342
+      TallBase_106: -1801049730
+      TallBase_107: -1972657024
+      TallBase_108: 1109968254
+      TallBase_109: -1033797703
+      TallBase_11: -1288890433
+      TallBase_110: -1717296995
+      TallBase_111: 987841167
+      TallBase_112: 264959525
+      TallBase_113: 561510832
+      TallBase_114: 528345872
+      TallBase_115: 1043830978
+      TallBase_116: 2058452007
+      TallBase_117: -1734471714
+      TallBase_118: 168202770
+      TallBase_119: 1555829489
+      TallBase_12: -1547797098
+      TallBase_120: -450593495
+      TallBase_121: 38567315
+      TallBase_122: 1897568878
+      TallBase_123: -1049092624
+      TallBase_124: 2082354486
+      TallBase_125: -2039691867
+      TallBase_126: -221488841
+      TallBase_127: -30081657
+      TallBase_128: 621775612
+      TallBase_129: 553203825
+      TallBase_13: -818749305
+      TallBase_130: 1328257433
+      TallBase_131: 1143590387
+      TallBase_132: -1803320819
+      TallBase_133: -1187171922
+      TallBase_134: 1577546947
+      TallBase_135: -274397734
+      TallBase_136: 671518892
+      TallBase_137: -967724615
+      TallBase_138: -1191748165
+      TallBase_139: -1886754451
+      TallBase_14: 1837332334
+      TallBase_140: -1699093168
+      TallBase_141: -831493850
+      TallBase_142: -1841288954
+      TallBase_143: 1822783821
+      TallBase_144: -694695243
+      TallBase_145: -319090538
+      TallBase_146: -314124100
+      TallBase_147: 1906580740
+      TallBase_148: 883802764
+      TallBase_149: -1302520694
+      TallBase_15: -1827293440
+      TallBase_150: 1221146856
+      TallBase_151: 1866107296
+      TallBase_152: -709292659
+      TallBase_153: -1461674437
+      TallBase_154: -1500741499
+      TallBase_155: -1235750787
+      TallBase_156: 1951578861
+      TallBase_157: -528257248
+      TallBase_158: -263394656
+      TallBase_159: 1537090068
+      TallBase_16: -1223866363
+      TallBase_160: -1698655656
+      TallBase_161: 1547939604
+      TallBase_162: -694558300
+      TallBase_163: -1711800520
+      TallBase_164: 1185724561
+      TallBase_165: 177367611
+      TallBase_166: 40572180
+      TallBase_167: -545068091
+      TallBase_168: -529283590
+      TallBase_169: 278250919
+      TallBase_17: -918829917
+      TallBase_170: 1368995827
+      TallBase_171: 358807457
+      TallBase_172: -1272382419
+      TallBase_173: 1433159205
+      TallBase_174: 1594401705
+      TallBase_175: -388216810
+      TallBase_176: -346841081
+      TallBase_177: 710746496
+      TallBase_178: 701252286
+      TallBase_179: 748928099
+      TallBase_18: -879761189
+      TallBase_180: 2146995907
+      TallBase_181: -1297848182
+      TallBase_182: 1913791394
+      TallBase_183: 1763459354
+      TallBase_184: 2078513093
+      TallBase_185: 90083972
+      TallBase_186: 1141348993
+      TallBase_187: 450847923
+      TallBase_188: 1559765207
+      TallBase_189: 1915377216
+      TallBase_19: 761985301
+      TallBase_190: -662276847
+      TallBase_191: 965503699
+      TallBase_192: -1431288159
+      TallBase_193: 2012501555
+      TallBase_194: -30183388
+      TallBase_195: -674391054
+      TallBase_196: 551804251
+      TallBase_197: -2061465208
+      TallBase_198: -1076998834
+      TallBase_199: -340287243
+      TallBase_2: -51478329
+      TallBase_20: 1117713446
+      TallBase_200: -133766297
+      TallBase_201: -1988788367
+      TallBase_202: -40110683
+      TallBase_203: 1021157009
+      TallBase_204: 1906311827
+      TallBase_205: -1447673539
+      TallBase_206: -1749176058
+      TallBase_207: -1615905811
+      TallBase_208: -973103819
+      TallBase_209: 918693583
+      TallBase_21: -1179242517
+      TallBase_22: -412459401
+      TallBase_23: -363889722
+      TallBase_24: -692413161
+      TallBase_25: -340531960
+      TallBase_26: 552508764
+      TallBase_27: -737780639
+      TallBase_28: -416995934
+      TallBase_29: -243271395
+      TallBase_3: -2093465889
+      TallBase_30: -1804160532
+      TallBase_31: 1680767136
+      TallBase_32: -224746204
+      TallBase_33: 1261536050
+      TallBase_34: -2087353373
+      TallBase_35: -2027679389
+      TallBase_36: 1171187163
+      TallBase_37: 1853264840
+      TallBase_38: 1228389912
+      TallBase_39: -448276669
+      TallBase_4: 798458890
+      TallBase_40: 1256435339
+      TallBase_41: -493540814
+      TallBase_42: 1167481632
+      TallBase_43: 1928300683
+      TallBase_44: -1988433391
+      TallBase_45: -701217159
+      TallBase_46: 2040085096
+      TallBase_47: 1458748348
+      TallBase_48: -1517516744
+      TallBase_49: 309444551
+      TallBase_5: 593355237
+      TallBase_50: -706467103
+      TallBase_51: 297037505
+      TallBase_52: 79470905
+      TallBase_53: -981377681
+      TallBase_54: 1307642917
+      TallBase_55: -1898723965
+      TallBase_56: 436635584
+      TallBase_57: 240234736
+      TallBase_58: 760093072
+      TallBase_59: -1162900154
+      TallBase_6: -1048401864
+      TallBase_60: -385720277
+      TallBase_61: -733347629
+      TallBase_62: 95794063
+      TallBase_63: 2043035475
+      TallBase_64: 1694745138
+      TallBase_65: -643340033
+      TallBase_66: -1502729199
+      TallBase_67: -1005063183
+      TallBase_68: -917792621
+      TallBase_69: -62484302
+      TallBase_7: -1265182961
+      TallBase_70: 129994982
+      TallBase_71: -813174735
+      TallBase_72: 164732089
+      TallBase_73: -1930640951
+      TallBase_74: 383726869
+      TallBase_75: 1440113691
+      TallBase_76: -976568080
+      TallBase_77: -1228463529
+      TallBase_78: -1499455809
+      TallBase_79: -1960766156
+      TallBase_8: 781924637
+      TallBase_80: -1347865913
+      TallBase_81: -705194673
+      TallBase_82: 1121975573
+      TallBase_83: -253797826
+      TallBase_84: 722095112
+      TallBase_85: -999293086
+      TallBase_86: 743873353
+      TallBase_87: 1477494475
+      TallBase_88: 132583581
+      TallBase_89: 572394114
+      TallBase_9: -951323466
+      TallBase_90: 640808551
+      TallBase_91: -155983398
+      TallBase_92: -1343344526
+      TallBase_93: 517166590
+      TallBase_94: -1672249010
+      TallBase_95: 539666322
+      TallBase_96: -1855323642
+      TallBase_97: -1956272363
+      TallBase_98: 660602648
+      TallBase_99: -369210757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
