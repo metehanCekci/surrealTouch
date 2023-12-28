@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEngine;
 
 public class movementScript : MonoBehaviour
@@ -20,12 +21,20 @@ public class movementScript : MonoBehaviour
     public bool goingRight = false;
     public bool lookingRight = true;
     private Vector2 facingleft;
+    private bool isKnight;
+    private string CHAR_NAME = "Hero Knight 2";
+    //Axell seçildiði vakit ok atma fonksiyonunu iptal etmeye çalýþtým, olmadý
+    //(attack fonksiyonunun içinde)
+    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        if (gameObject.name == CHAR_NAME) //iþe yaramýyo ;(
+        {
+        isKnight = true;
+        }
         
 
     }
@@ -33,8 +42,9 @@ public class movementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if(goingLeft)
+        
+        
+        if (goingLeft)
         {
 
             player.transform.position += player.transform.right * runningSpeed * Time.deltaTime;
@@ -118,8 +128,17 @@ public class movementScript : MonoBehaviour
         if (canattack)
         {
         animator.SetBool("isAttacking", true);
-        StartCoroutine(attackDelay());
-        StartCoroutine(attackReset());
+            if (isKnight)
+            {
+                StartCoroutine(attackReset());
+            }
+            else 
+            {
+                StartCoroutine(attackDelay());
+                StartCoroutine(attackReset());
+            }
+        
+        
         }
 
     }
@@ -128,7 +147,7 @@ public class movementScript : MonoBehaviour
     {
         if(player.GetComponent<Rigidbody2D>().velocity.y == 0)
         player.GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpHeight;
-
+        
     }
 
     public void death()
