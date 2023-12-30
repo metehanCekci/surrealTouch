@@ -13,6 +13,7 @@ public class MainMenuScript : MonoBehaviour
     private void Awake()
     {
         openMain();
+        
     }
     // Start is called before the first frame update
     void Start()
@@ -26,16 +27,21 @@ public class MainMenuScript : MonoBehaviour
     {
         
     }
-    public void axxel()
+    public void exitMain()
     {
-
+        {
+            #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+            #endif
+            Application.Quit();
+        }
     }
     public void closeMain() 
     {
         SceneManager.LoadScene(1);
     }
 
-    public void openMain() 
+    private void openMain() 
     {
         mainMenu.SetActive(true);
     }

@@ -8,6 +8,7 @@ public class batAi : MonoBehaviour
     public GameObject player;
     public float speed = 5;
     private float distance;
+    public batAi bat;
 
 
     // Start is called before the first frame update
@@ -44,8 +45,10 @@ public class batAi : MonoBehaviour
         
 
     }*/
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag=="player") Destroy(player);
+        if (collision.gameObject.tag == "Player") Destroy(player);
     }
 }

@@ -16,6 +16,8 @@ public class movementScript : MonoBehaviour
     public GameObject arrowPlace;
     public bool canattack = true;
     public float waitsecf = 0.5f;
+    public float falljumpIntensity;
+    public ledgeScript ledge;
 
     public bool goingLeft = false;
     public bool goingRight = false;
@@ -24,7 +26,10 @@ public class movementScript : MonoBehaviour
     private bool isKnight;
     private string CHAR_NAME = "Hero Knight 2";
     //Axell seçildiði vakit ok atma fonksiyonunu iptal etmeye çalýþtým, olmadý
-    //(attack fonksiyonunun içinde)
+    //(attack fonksiyonunun içinde) 
+
+    //Axell'in kullanmadýðý fonksiyonlarý bi þekilde kapatmalýyýz,
+    //ne olur ne olmaz boþta durup hata vermesinler
     //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
@@ -57,18 +62,24 @@ public class movementScript : MonoBehaviour
 
         }
 
-        if (player.GetComponent<Rigidbody2D>().velocity.y > 0)
+        if (player.GetComponent<Rigidbody2D>().velocity.y > falljumpIntensity)
         {
 
             animator.SetBool("isJumping", true);
             animator.SetBool("isFalling", false);
 
         }
-        else if(player.GetComponent<Rigidbody2D>().velocity.y < 0)
+        else if(player.GetComponent<Rigidbody2D>().velocity.y < -1 * falljumpIntensity)
         {
 
-            animator.SetBool("isJumping", false);
-            animator.SetBool("isFalling", true);
+            if(ledge.isTouching==false)
+            {
+
+                animator.SetBool("isJumping", false);
+                animator.SetBool("isFalling", true);
+
+            }
+            
 
         }
         else

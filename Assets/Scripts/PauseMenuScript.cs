@@ -10,6 +10,7 @@ public class PauseMenuScript : MonoBehaviour
     [SerializeField] private Button resumeButton;
     [SerializeField] private Button quitButton;
     [SerializeField] private GameObject PauseMenu;
+    [SerializeField] private GameObject ctrlButtons;
     bool isPaused = false;
 
     // Start is called before the first frame update
@@ -41,20 +42,19 @@ public class PauseMenuScript : MonoBehaviour
             // Pause the game
             Time.timeScale = 0;
             PauseMenu.SetActive(true);
+            ctrlButtons.SetActive(false);
         }
         else
         {
             // Resume the game
             Time.timeScale = 1;
             PauseMenu.SetActive(false);
+            ctrlButtons.SetActive(true);
         }
 
     }
 
-    public void ResumeGame() 
-    {
-        PauseEnable();
-    }
+    
 
     public void ExitGame()
     {

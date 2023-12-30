@@ -44,9 +44,14 @@ public class arrowScript : MonoBehaviour
         {
 
             Destroy(collision.gameObject);
-            Destroy(this.gameObject
-                );
+            Destroy(this.gameObject);
             
+        }
+        else if(collision.gameObject.tag != "Player")
+        {
+
+            
+
         }
 
     }
