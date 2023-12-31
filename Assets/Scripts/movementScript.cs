@@ -24,7 +24,7 @@ public class movementScript : MonoBehaviour
     public bool lookingRight = true;
     private Vector2 facingleft;
     private bool isKnight;
-    private string CHAR_NAME = "Hero Knight 2";
+    private string CHAR_NAME = "Knight";
     //Axell seçildiði vakit ok atma fonksiyonunu iptal etmeye çalýþtým, olmadý
     //(attack fonksiyonunun içinde) 
 
@@ -36,7 +36,7 @@ public class movementScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (gameObject.name == CHAR_NAME) //iþe yaramýyo ;(
+        if (player.gameObject.name == CHAR_NAME) //iþe yaramýyo ;(
         {
         isKnight = true;
         }
@@ -62,6 +62,7 @@ public class movementScript : MonoBehaviour
 
         }
 
+        
         if (player.GetComponent<Rigidbody2D>().velocity.y > falljumpIntensity)
         {
 
@@ -69,16 +70,18 @@ public class movementScript : MonoBehaviour
             animator.SetBool("isFalling", false);
 
         }
-        else if(player.GetComponent<Rigidbody2D>().velocity.y < -1 * falljumpIntensity)
+        
+        else if (player.GetComponent<Rigidbody2D>().velocity.y < -1 * falljumpIntensity)
         {
 
-            if(ledge.isTouching==false)
+            if (player.gameObject.name == CHAR_NAME || ledge.isTouching == false)
             {
 
                 animator.SetBool("isJumping", false);
                 animator.SetBool("isFalling", true);
 
             }
+            
             
 
         }
