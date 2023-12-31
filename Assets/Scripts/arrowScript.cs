@@ -9,6 +9,7 @@ public class arrowScript : MonoBehaviour
     public movementScript mov;
     public Transform tr;
     private float degrees = 180;
+    public sfxScript audio;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class arrowScript : MonoBehaviour
             transform.rotation = Quaternion.Euler(Vector3.forward * degrees);
 
         }
-
+        Destroy(this, 5);
     }
 
     // Update is called once per frame
@@ -44,13 +45,15 @@ public class arrowScript : MonoBehaviour
         {
 
             Destroy(collision.gameObject);
+            audio.playhit();
             Destroy(this.gameObject);
             
+            
         }
-        else if(collision.gameObject.tag != "Player")
+        else if(collision.gameObject.tag == "arrowDestroyer")
         {
 
-            
+            Destroy(this.gameObject);
 
         }
 

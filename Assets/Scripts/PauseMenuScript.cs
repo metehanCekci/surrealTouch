@@ -11,6 +11,8 @@ public class PauseMenuScript : MonoBehaviour
     [SerializeField] private Button quitButton;
     [SerializeField] private GameObject PauseMenu;
     [SerializeField] private GameObject ctrlButtons;
+    [SerializeField] private GameObject retryMenu;
+    [SerializeField] private Button retryButton;
     bool isPaused = false;
 
     // Start is called before the first frame update
@@ -18,6 +20,8 @@ public class PauseMenuScript : MonoBehaviour
     private void Awake()
     {
         PauseMenu.SetActive(false);
+        retryMenu.SetActive(false);
+
     }
 
     void Start()
@@ -33,6 +37,10 @@ public class PauseMenuScript : MonoBehaviour
         
     }
 
+    public void tryAgain() 
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
     public void PauseEnable()
     {
         isPaused = !isPaused;

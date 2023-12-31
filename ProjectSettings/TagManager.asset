@@ -21,6 +21,8 @@ TagManager:
   - fog
   - fakeFloor
   - spike
+  - Ground
+  - arrowDestroyer
   layers:
   - Default
   - TransparentFX
@@ -28,8 +30,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Vulnerable
+  - Invulnerable
   - 
   - 
   - 
