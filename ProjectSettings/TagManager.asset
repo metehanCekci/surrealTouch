@@ -23,6 +23,7 @@ TagManager:
   - spike
   - Ground
   - arrowDestroyer
+  - stopper
   layers:
   - Default
   - TransparentFX
