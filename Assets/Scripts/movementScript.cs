@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Net;
 using Unity.Burst.CompilerServices;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class movementScript : MonoBehaviour
 {
@@ -35,18 +36,12 @@ public class movementScript : MonoBehaviour
     private Vector2 facingleft;
     private bool isKnight;
     private string CHAR_NAME = "Knight";
-    //Axell seçildiði vakit ok atma fonksiyonunu iptal etmeye çalýþtým, olmadý
-    //(attack fonksiyonunun içinde) 
-
-    //Axell'in kullanmadýðý fonksiyonlarý bi þekilde kapatmalýyýz,
-    //ne olur ne olmaz boþta durup hata vermesinler
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        if (player.gameObject.name == CHAR_NAME) //iþe yaramýyo ;(
+        if (player.gameObject.name == CHAR_NAME) 
         {
         isKnight = true;
         }
@@ -232,20 +227,26 @@ public class movementScript : MonoBehaviour
         playerSprite.color = Color.white;
     }
 
-    IEnumerator death()
+    [HideInInspector]public IEnumerator death()
     {
         buttons.enabled = false;
-        hitbox.enabled = false;
+        hitbox.enabled = true;
         rigid.gravityScale = 0;
-
-        yield return new WaitForSeconds(2);
-
+        if (isKnight) 
+        {
+            yield return new WaitForSeconds(1);
+        }
+        else 
+        {
+            yield return new WaitForSeconds(2);
+            
+        }
         player.SetActive(false);
-        //RETRY YAPACAK ADAM ÝÇÝN NOT TAM BURAYA KOY CANVASI AKTÝF ET SONRA RETRY VEYA PLAY AGAIN DÝYÝNCE BU SAHNEYÝ LOADLA//
-        //eyw apo adam
+
         retryMenu.SetActive(true);
         Time.timeScale = 0;
-        
+
+
 
     }
 }
