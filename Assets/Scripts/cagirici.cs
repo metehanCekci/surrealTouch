@@ -42,11 +42,16 @@ public class cagirici : MonoBehaviour
     {
         PauseEnable();
     }
-    public void ExitGame()
+    
+     public void ExitGame()
     {
+        #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
+        #else
         Application.Quit();
+        #endif
     }
+
     public void QuitGame()
     {
         PauseMenu.SetActive(false);
