@@ -25442,7 +25442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd97c9799b3fcdc43ab3621185b33045, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpHeight: 5
+  jumpHeight: 4
   runningSpeed: 2
   player: {fileID: 1878289903}
   animator: {fileID: 1878289904}
