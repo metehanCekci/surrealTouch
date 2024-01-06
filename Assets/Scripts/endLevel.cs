@@ -7,6 +7,7 @@ public class endLevel : MonoBehaviour
 {
     
     private int buildIndex = 0;
+    
     private void Awake()
     {
         Scene currentScene = SceneManager.GetActiveScene();
@@ -26,13 +27,24 @@ public class endLevel : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(buildIndex == 3) 
+        if(collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(2);
+
+            
+
+                if (buildIndex == 3)
+                {
+                    SceneManager.LoadScene(2);
+                }
+                else
+                {
+                    SceneManager.LoadScene(3);
+                }
+
+            
+
+
         }
-        else 
-        {
-            SceneManager.LoadScene(3);
-        }
+        
     }
 }

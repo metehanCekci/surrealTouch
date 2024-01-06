@@ -8,7 +8,6 @@ using UnityEngine.Timeline;
 
 public class movementScript : MonoBehaviour
 {
-
     public float jumpHeight = 100;
     public float runningSpeed = 100;
     public GameObject player;
@@ -175,24 +174,32 @@ public class movementScript : MonoBehaviour
     public void damage()
     {
 
-        
-
-        if(hp == 1)
+        if (player.layer == 6)
         {
-            
-            sfx.playtakedamage();
-            animator.SetBool("isDying", true);
-            StartCoroutine(death());
-        }
-        else if(hp > 0)
-        {
-            rigid.AddForce(new Vector2((-1 * knockback) * Time.deltaTime, knockback * Time.deltaTime));
-            sfx.playtakedamage();
-            hp--;
-            StartCoroutine(Iframes());
 
+            if (hp == 1)
+            {
+
+                sfx.playtakedamage();
+                animator.SetBool("isDying", true);
+                StartCoroutine(death());
+            }
+            else if (hp > 0)
+            {
+                if(lookingRight)
+                {
+                    rigid.AddForce(new Vector2((-1 * knockback) * Time.deltaTime, knockback * Time.deltaTime));
+                }
+                else
+                {
+                    rigid.AddForce(new Vector2((knockback) * Time.deltaTime, knockback * Time.deltaTime));
+                }
+                sfx.playtakedamage();
+                hp--;
+                StartCoroutine(Iframes());
+
+            }
         }
-        
 
     }
 

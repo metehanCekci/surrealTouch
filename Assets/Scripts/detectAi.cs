@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class detectAi : MonoBehaviour
 {
-    public batAi bat;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +20,8 @@ public class detectAi : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            bat.enabled = true;
+            GetComponentInParent<batAi>().enabled = true;
+            GetComponentInParent<patrollingAi>().enabled = false;
         }
 
     }

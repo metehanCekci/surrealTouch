@@ -44,7 +44,7 @@ public class arrowScript : MonoBehaviour
         if(collision.gameObject.tag == "enemy")
         {
 
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<batAi>().hpReduce();
             audio.playhit();
             Destroy(this.gameObject);
             
