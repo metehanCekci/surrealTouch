@@ -236,8 +236,8 @@ public class movementScript : MonoBehaviour
 
     [HideInInspector]public IEnumerator death()
     {
-        buttons.enabled = false;
-        hitbox.enabled = true;
+        Destroy(buttons);
+        hitbox.enabled = false;
         rigid.gravityScale = 0;
         if (isKnight) 
         {
@@ -249,7 +249,6 @@ public class movementScript : MonoBehaviour
             
         }
         player.SetActive(false);
-
         retryMenu.SetActive(true);
         Time.timeScale = 0;
 

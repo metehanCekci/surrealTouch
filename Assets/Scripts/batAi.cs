@@ -7,6 +7,8 @@ using UnityEngine;
 public class batAi : MonoBehaviour
 {
     public GameObject player;
+    public GameObject blood;
+    public sfxScript sfx;
     public float speed = 5;
     private float distance;
     public batAi bat;
@@ -55,10 +57,16 @@ public class batAi : MonoBehaviour
         if (hp > 1)
         {
             hp--;
+            StartCoroutine(effect());
         }
         else if (hp == 1)
         {
 
+            sfx.playdeath();
+            GameObject bloodClone = Instantiate(blood);
+            bloodClone.transform.position = transform.position;
+            bloodClone.SetActive(true);
+            Destroy(bloodClone , 1);
             Destroy(this.gameObject);
 
         }
@@ -76,7 +84,15 @@ public class batAi : MonoBehaviour
         {
                 
                 movement.damage();
+                
             
         }
+    }
+
+    IEnumerator effect()
+    {
+        this.GetComponent<SpriteRenderer>().color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        this.GetComponent<SpriteRenderer>().color = Color.white;
     }
 }
