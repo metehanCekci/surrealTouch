@@ -44,7 +44,8 @@ public class movementScript : MonoBehaviour
         {
         isKnight = true;
         }
-        
+
+        Application.targetFrameRate = 60;
 
     }
 
