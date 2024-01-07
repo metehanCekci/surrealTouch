@@ -5,6 +5,7 @@ using UnityEngine;
 public class boulderTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject boulder;
+    [SerializeField] private trapBoulderScript trpBoulder;
     [SerializeField] private float delay;
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,11 @@ public class boulderTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (!trpBoulder.isBoulderActive) 
+        {
         StartCoroutine(boulderDelay());
+        }
+        
     }
     IEnumerator boulderDelay() 
     {

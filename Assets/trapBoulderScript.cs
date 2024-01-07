@@ -2,21 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class trapArrowScript : MonoBehaviour
+public class trapBoulderScript : MonoBehaviour
 {
-    [SerializeField] private float arrowSpeed;
     [SerializeField] private movementScript movement;
-    [HideInInspector] public bool isArrowActive = false;
+    [HideInInspector] public bool isBoulderActive = false;
     // Start is called before the first frame update
     void Start()
     {
-        isArrowActive = true;
+        isBoulderActive = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.left * arrowSpeed * Time.deltaTime);
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -24,10 +23,7 @@ public class trapArrowScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player")) 
         {
             movement.damage();
-            if(isArrowActive) Destroy(gameObject);
+            if(isBoulderActive) Destroy(gameObject);
         }
-        
-       
     }
-
 }

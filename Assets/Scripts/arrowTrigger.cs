@@ -6,15 +6,12 @@ using UnityEngine.UIElements;
 public class arrowTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject arrow;
+    [SerializeField] private trapArrowScript trpArrow;
     [SerializeField] private bool isArrowDelayed = false;
     [SerializeField] private float delay = 0;
-    [SerializeField] private float arrowSpeed = 0;
+    
     // Start is called before the first frame update
-    private void Awake()
-    {
-       
-
-    }
+    
     void Start()
     {
         
@@ -23,11 +20,7 @@ public class arrowTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (arrow.activeInHierarchy == false) ;
-        else 
-        {
-            arrow.transform.position += arrow.transform.position * arrowSpeed * Time.deltaTime;
-        }
+       
         
             
             
@@ -35,15 +28,19 @@ public class arrowTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!isArrowDelayed) 
+        if (!trpArrow.isArrowActive)
         {
+            if (!isArrowDelayed) 
+            {
             arrow.SetActive(true);
             
-        }
-        else
-        {
+            }
+            else
+            {
             StartCoroutine(arrowDelay());
+            }
         }
+        
     }
 
     IEnumerator arrowDelay() 
