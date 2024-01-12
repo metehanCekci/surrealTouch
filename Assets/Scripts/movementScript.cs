@@ -22,7 +22,7 @@ public class movementScript : MonoBehaviour
     public sfxScript sfx;
     public int hp = 3;
     public float iFrameFloat = 0.5f;
-    public Canvas buttons;
+    public GameObject buttons;
     public CapsuleCollider2D hitbox;
     public Rigidbody2D rigid;
     public float knockback = 5f;
@@ -237,9 +237,11 @@ public class movementScript : MonoBehaviour
 
     [HideInInspector]public IEnumerator death()
     {
-        Destroy(buttons);
+        buttons.SetActive(false);
         hitbox.enabled = false;
+        rigid.velocity = Vector3.zero;
         rigid.gravityScale = 0;
+        
         if (isKnight) 
         {
             yield return new WaitForSeconds(1);

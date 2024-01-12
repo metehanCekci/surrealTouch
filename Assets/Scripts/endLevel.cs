@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 public class endLevel : MonoBehaviour
 {
     
-    private int buildIndex = 0;
+    //private int buildIndex = 0;
     
     private void Awake()
     {
+        /*
         Scene currentScene = SceneManager.GetActiveScene();
         buildIndex = currentScene.buildIndex;
+        */
     }
     // Start is called before the first frame update
     void Start()
@@ -30,8 +32,8 @@ public class endLevel : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
 
-            
 
+            /*
                 if (buildIndex == 3)
                 {
                     SceneManager.LoadScene(2);
@@ -40,6 +42,9 @@ public class endLevel : MonoBehaviour
                 {
                     SceneManager.LoadScene(3);
                 }
+            */
+
+            SceneManager.LoadScene(0);
 
             
 
