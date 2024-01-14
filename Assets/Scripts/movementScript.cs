@@ -28,6 +28,7 @@ public class movementScript : MonoBehaviour
     public float knockback = 5f;
     public SpriteRenderer playerSprite;
     public GameObject retryMenu;
+    public knightSwordScript swordScript;
 
     public bool goingLeft = false;
     public bool goingRight = false;
@@ -42,7 +43,11 @@ public class movementScript : MonoBehaviour
     {
         if (player.gameObject.name == CHAR_NAME) 
         {
-        isKnight = true;
+            isKnight = true;
+        }
+        else
+        {
+            isKnight = false;
         }
 
         Application.targetFrameRate = 60;
@@ -146,16 +151,21 @@ public class movementScript : MonoBehaviour
     {
         if (canattack)
         {
-        animator.SetBool("isAttacking", true);
-
             
-
             if (isKnight)
             {
-                StartCoroutine(attackReset());
+                if (swordScript.onQueue == false) 
+                {
+                    player.GetComponentInChildren<knightSwordScript>().attack();
+                    animator.SetBool("isAttacking", true);
+                    sfx.playSword();
+                    StartCoroutine(attackReset());
+
+                }
             }
             else 
             {
+                animator.SetBool("isAttacking", true);
                 StartCoroutine(attackDelay());
                 StartCoroutine(attackReset());
             }
@@ -225,6 +235,8 @@ public class movementScript : MonoBehaviour
         Destroy(cloneArrow , 3);
 
     }
+
+
 
     IEnumerator Iframes()
     {

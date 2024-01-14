@@ -5,6 +5,7 @@ using UnityEngine;
 public class swordCollision : MonoBehaviour
 {
 
+    public sfxScript sfx;
     
     // Start is called before the first frame update
     void Start()
@@ -27,10 +28,9 @@ public class swordCollision : MonoBehaviour
         if (collision.gameObject.tag == "enemy")
         {
 
-            collision.gameObject.GetComponent<Animator>().SetBool("isDying", true);
-            Destroy(collision.gameObject.GetComponent<enemyAi>());
-            Destroy(collision.gameObject.GetComponent<CircleCollider2D>());
-            Destroy(collision.gameObject, 1);
+            sfx.playhit();
+            collision.GetComponent<enemyAi>().takeDamage();
+            this.gameObject.SetActive(false);
 
         }
     }

@@ -19,20 +19,26 @@ public class knightSwordScript : MonoBehaviour
     void Update()
     {
 
-        if (anim.GetBool("isAttacking"))
+        
+            
+
+        
+
+
+
+
+    }
+
+    public void attack()
+    {
+        if (onQueue == false)
         {
-            if (onQueue==false) {
 
-                onQueue = true;
-                StartCoroutine(hitboxDelay());
-
-            }
+            onQueue = true;
+            StartCoroutine(hitboxDelay());
 
         }
-
-
-
-
+        else Debug.Log("failed");
     }
 
     IEnumerator hitboxDelay()
@@ -40,9 +46,10 @@ public class knightSwordScript : MonoBehaviour
         
         yield return new WaitForSeconds(hitboxDelayFloat);
         swordHitbox.SetActive(true);
+        Debug.Log("hit");
         yield return new WaitForSeconds(0.1f);
         swordHitbox.SetActive(false);
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.3f);
         onQueue = false;
 
     }

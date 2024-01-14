@@ -7,6 +7,7 @@ public class detectAi : MonoBehaviour
 {
 
     public GameObject exclama;
+    public bool isSkeleton = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,11 +31,23 @@ public class detectAi : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             GameObject exclamaClone = Instantiate(exclama);
-            exclamaClone.transform.position = transform.position += Vector3.up * 0.20f;
+            exclamaClone.transform.position = transform.position += Vector3.up * 0.32f;
             exclamaClone.SetActive(true);
             exclamaClone.transform.parent = this.gameObject.transform;
             Destroy(exclamaClone, 1);
-            GetComponentInParent<batAi>().enabled = true;
+            if(isSkeleton) 
+            {
+
+                GetComponentInParent<enemyAi>().enabled = true;
+
+            }
+            else
+            {
+
+                GetComponentInParent<batAi>().enabled = true;
+
+            }
+            
             GetComponent<CircleCollider2D>().enabled = false;
             GetComponentInParent<patrollingAi>().enabled = false;
 

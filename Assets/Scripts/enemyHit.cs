@@ -5,6 +5,7 @@ using UnityEngine;
 public class enemyHit : MonoBehaviour
 {
     public GameObject player;
+    public movementScript mv;
     
     
     // Start is called before the first frame update
@@ -25,12 +26,12 @@ public class enemyHit : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
 
-        Debug.Log("1");
+        
 
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("2");
-            Destroy(player);
+
+            mv.damage();
 
         }
 
@@ -39,12 +40,12 @@ public class enemyHit : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        Debug.Log("1");
+        
 
         if (collision.gameObject.tag == "player")
         {
-            Debug.Log("2");
-            Destroy(player);
+            
+            mv.damage();
 
         }
 

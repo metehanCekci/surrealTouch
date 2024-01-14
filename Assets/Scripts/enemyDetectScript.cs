@@ -22,7 +22,7 @@ public class enemyDetectScript : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
 
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "Player")
         {
 
             enem.enemyAttacks();
