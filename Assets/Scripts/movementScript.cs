@@ -9,7 +9,11 @@ using UnityEngine.Timeline;
 public class movementScript : MonoBehaviour
 {
     public float jumpHeight = 100;
+    public float jumpHeightUnchanged = 100;
+    public float enragedJumpHeight = 150;
     public float runningSpeed = 100;
+    public float runningSpeedUnchanged = 100;
+    public float enragedRunningSpeed = 150;
     public GameObject player;
     public Animator animator;
     public SpriteRenderer sprites;
@@ -21,6 +25,8 @@ public class movementScript : MonoBehaviour
     public ledgeScript ledge;
     public sfxScript sfx;
     public int hp = 3;
+    public int rage = 0;
+    public bool onrage = false;
     public float iFrameFloat = 0.5f;
     public GameObject buttons;
     public CapsuleCollider2D hitbox;
@@ -57,7 +63,15 @@ public class movementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (rage==6 && onrage==false) onRage();
         
+        if(onrage)
+        {
+
+            rage = 6;
+
+        }
         
         if (goingLeft)
         {
@@ -102,6 +116,30 @@ public class movementScript : MonoBehaviour
             animator.SetBool("isFalling", false);
 
         }
+    }
+
+    public void onRage()
+    {
+        onrage = true;
+        player.layer = 7;
+        runningSpeed = enragedRunningSpeed;
+        jumpHeight = enragedJumpHeight;
+        player.GetComponent<SpriteRenderer>().color = Color.yellow;
+        StartCoroutine(quitRage());
+
+    }
+
+    IEnumerator quitRage()
+    {
+
+        yield return new WaitForSeconds(15f);
+        player.layer = 6;
+        runningSpeed = runningSpeedUnchanged;
+        jumpHeight = jumpHeightUnchanged;
+        player.GetComponent<SpriteRenderer>().color = Color.white;
+        rage = 0;
+        onrage = false;
+
     }
 
     public void goRight()
@@ -190,7 +228,7 @@ public class movementScript : MonoBehaviour
 
             if (hp == 1)
             {
-
+                hp--;
                 sfx.playtakedamage();
                 animator.SetBool("isDying", true);
                 StartCoroutine(death());
@@ -236,7 +274,7 @@ public class movementScript : MonoBehaviour
 
     }
 
-
+    
 
     IEnumerator Iframes()
     {

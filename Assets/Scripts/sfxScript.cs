@@ -9,6 +9,7 @@ public class sfxScript : MonoBehaviour
     public AudioClip takedamage;
     public AudioClip bow;
     public AudioClip sword;
+    public AudioClip gainHealth;
     [SerializeField]
     // Start is called before the first frame update
     void Start()
@@ -41,5 +42,9 @@ public class sfxScript : MonoBehaviour
     public void playSword()
     {
         this.GetComponent<AudioSource>().PlayOneShot(sword);
+    }
+    public void playHeart()
+    {
+        this.GetComponent<AudioSource>().PlayOneShot(gainHealth);
     }
 }
