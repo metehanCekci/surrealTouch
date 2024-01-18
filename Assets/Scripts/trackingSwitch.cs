@@ -22,13 +22,20 @@ public class trackingSwitch : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-        
+        if(bat.transform.childCount == 3) //daha iyi bir çözüm bulunmalý (opsiyonel)
+        {
             if (collision.gameObject == bat.transform.GetChild(2).gameObject)
             {
                 if (ai.towardsA) { ai.towardsA = false; ai.gameObject.transform.rotation = Quaternion.Euler(Vector3.up * 0); }
 
                 else { ai.towardsA = true; ai.gameObject.transform.rotation = Quaternion.Euler(Vector3.up * 180); }
             }
+        }
+        
+            
+        
+        
+            
         
         
     }
