@@ -28,18 +28,21 @@ public class arrowTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!trpArrow.isArrowActive)
-        {
-            if (!isArrowDelayed) 
+        if (collision.gameObject.CompareTag("Player")) {
+            if (!trpArrow.isArrowActive)
             {
-            arrow.SetActive(true);
-            
-            }
-            else
-            {
-            StartCoroutine(arrowDelay());
+                if (!isArrowDelayed)
+                {
+                    arrow.SetActive(true);
+
+                }
+                else
+                {
+                    StartCoroutine(arrowDelay());
+                }
             }
         }
+        
         
     }
 
