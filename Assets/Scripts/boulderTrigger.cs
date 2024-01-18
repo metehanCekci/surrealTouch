@@ -21,10 +21,14 @@ public class boulderTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!trpBoulder.isBoulderActive) 
+        if (collision.gameObject.CompareTag("Player"))
         {
-        StartCoroutine(boulderDelay());
+            if (!trpBoulder.isBoulderActive)
+            {
+                StartCoroutine(boulderDelay());
+            }
         }
+        
         
     }
     IEnumerator boulderDelay() 

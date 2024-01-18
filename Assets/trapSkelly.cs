@@ -12,7 +12,7 @@ public class trapSkelly : MonoBehaviour
         // Start is called before the first frame update
     void Start()
     {
-        
+        skelly.SetActive(false);
     }
 
     // Update is called once per frame
