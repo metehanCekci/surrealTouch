@@ -35,6 +35,7 @@ public class movementScript : MonoBehaviour
     public SpriteRenderer playerSprite;
     public GameObject retryMenu;
     public knightSwordScript swordScript;
+    public rageMusic rageM;
 
     public bool goingLeft = false;
     public bool goingRight = false;
@@ -125,6 +126,7 @@ public class movementScript : MonoBehaviour
         runningSpeed = enragedRunningSpeed;
         jumpHeight = enragedJumpHeight;
         player.GetComponent<SpriteRenderer>().color = Color.yellow;
+        rageM.playRage();
         StartCoroutine(quitRage());
 
     }

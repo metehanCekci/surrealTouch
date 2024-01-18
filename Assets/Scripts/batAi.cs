@@ -115,7 +115,7 @@ public class batAi : MonoBehaviour
 
         int chance = Random.Range(1, 10);
 
-        if(chance > 5)
+        if(chance > 7)
         {
 
             GameObject clone = Instantiate(heart);

@@ -27,6 +27,7 @@ public class heartScript : MonoBehaviour
 
             if(mv.hp <=2)
             mv.hp++;
+            else mv.rage++;
             Destroy(this.gameObject);
             sfx.playHeart();
 

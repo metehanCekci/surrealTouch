@@ -34,6 +34,10 @@ public class arrowScript : MonoBehaviour
     void Update()
     {
 
+        if(mov.onrage)
+        { transform.localScale = new Vector3(0.1f, 0.12f, 0); }
+        else
+        { transform.localScale = new Vector3(0.03566787f, 0.04169711f, 0); }
         this.transform.position += this.transform.right * arrowspeed * Time.deltaTime;
 
     }
