@@ -22,7 +22,7 @@ public class enemyAi : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameObject.layer = 6;
     }
 
     // Update is called once per frame
@@ -139,5 +139,23 @@ public class enemyAi : MonoBehaviour
             mv.damage();
 
         }
+
+       /*
+        if (collision.gameObject.CompareTag("enemy")) 
+        {
+            StartCoroutine(passThru());
+        }
+       */
     }
+
+    
+
+   /* 
+    IEnumerator passThru() //ÝSKELETLERÝN BÝRBÝRÝNE TAKILMAMASI ÝÇÝN (çalýþmýyo biriniz hallediverin)
+    { 
+        gameObject.layer = 7;
+        yield return new WaitForSeconds(1f);
+       gameObject.layer = 6;
+    }
+   */
 }

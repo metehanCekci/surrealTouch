@@ -8,12 +8,12 @@ using UnityEngine.Timeline;
 
 public class movementScript : MonoBehaviour
 {
-    public float jumpHeight = 100;
-    public float jumpHeightUnchanged = 100;
-    public float enragedJumpHeight = 150;
-    public float runningSpeed = 100;
-    public float runningSpeedUnchanged = 100;
-    public float enragedRunningSpeed = 150;
+    public float jumpHeight = 100f;
+    public float jumpHeightUnchanged = 100f;
+    public float enragedJumpHeight = 150f;
+    public float runningSpeed = 100f;
+    public float runningSpeedUnchanged = 100f;
+    public float enragedRunningSpeed = 150f;
     public GameObject player;
     public Animator animator;
     public SpriteRenderer sprites;
@@ -40,9 +40,9 @@ public class movementScript : MonoBehaviour
     public bool goingLeft = false;
     public bool goingRight = false;
     public bool lookingRight = true;
-    private Vector2 facingleft;
     private bool isKnight;
     private string CHAR_NAME = "Knight";
+    private bool isMoving = false;
     
 
     // Start is called before the first frame update
@@ -73,18 +73,27 @@ public class movementScript : MonoBehaviour
             rage = 6;
 
         }
-        
+
+        /* ÝKÝ KERE KARÞILAÞTIRMAYA GEREK YOK, "MOVING" DURUMU YETERLÝ
         if (goingLeft)
         {
 
             player.transform.position += player.transform.right * runningSpeed * Time.deltaTime;
+            
 
         }
         if (goingRight)
         {
 
             player.transform.position += player.transform.right * runningSpeed * Time.deltaTime;
+            
 
+        }
+        */
+
+        if (isMoving) 
+        {
+            player.transform.position += player.transform.right * runningSpeed * Time.deltaTime;
         }
 
         
@@ -148,8 +157,7 @@ public class movementScript : MonoBehaviour
     {
 
         animator.SetBool("isRunning", true);
-        goingRight = true;
-
+        isMoving = true;
         if(lookingRight == false)
         {
 
@@ -165,7 +173,7 @@ public class movementScript : MonoBehaviour
     {
 
         animator.SetBool("isRunning", true);
-        goingLeft = true;
+        isMoving = true;
 
         if(lookingRight)
         {
@@ -182,8 +190,7 @@ public class movementScript : MonoBehaviour
     {
 
         animator.SetBool("isRunning", false);
-        goingLeft = false;
-        goingRight = false;
+        isMoving = false;
 
     }
 
