@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3158782197355019226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7648260143114709669}
+  - component: {fileID: 7966868643318158449}
+  m_Layer: 0
+  m_Name: MovementScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7648260143114709669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3158782197355019226}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.982518, y: 16.01055, z: -7.899373}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7966868643318158449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3158782197355019226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd97c9799b3fcdc43ab3621185b33045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpHeight: 5.5
+  jumpHeightUnchanged: 100
+  enragedJumpHeight: 150
+  runningSpeed: 2
+  runningSpeedUnchanged: 100
+  enragedRunningSpeed: 150
+  player: {fileID: 0}
+  animator: {fileID: 0}
+  sprites: {fileID: 0}
+  arrow: {fileID: 0}
+  arrowPlace: {fileID: 0}
+  canattack: 1
+  waitsecf: 0.35
+  falljumpIntensity: 0.05
+  ledge: {fileID: 0}
+  sfx: {fileID: 0}
+  hp: 3
+  rage: 0
+  onrage: 0
+  iFrameFloat: 0.5
+  buttons: {fileID: 0}
+  hitbox: {fileID: 0}
+  rigid: {fileID: 0}
+  knockback: 5200
+  playerSprite: {fileID: 0}
+  retryMenu: {fileID: 0}
+  swordScript: {fileID: 0}
+  rageM: {fileID: 0}
+  goingLeft: 0
+  goingRight: 0
+  lookingRight: 1

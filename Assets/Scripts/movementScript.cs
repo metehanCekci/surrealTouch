@@ -64,7 +64,6 @@ public class movementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (rage==6 && onrage==false) onRage();
         
         if(onrage)
@@ -163,7 +162,7 @@ public class movementScript : MonoBehaviour
 
             lookingRight = true;
 
-            player.transform.rotation = Quaternion.Euler(Vector3.up * 0);
+            player.transform.rotation = Quaternion.Euler(Vector2.up * 0);
 
         }
 
@@ -180,7 +179,7 @@ public class movementScript : MonoBehaviour
 
             lookingRight = false;
 
-            player.transform.rotation = Quaternion.Euler(Vector3.up * 180);
+            player.transform.rotation = Quaternion.Euler(Vector2.up * 180);
 
         }
         
