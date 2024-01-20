@@ -9,7 +9,7 @@ public class pcMovement : MonoBehaviour
 
     void Start()
     {
-        movementscript = GameObject.Find("movementScript").GetComponent<movementScript>();
+        //movementscript = GameObject.Find("movementScript").GetComponent<movementScript>();
         //pauseMenuScript = GameObject.Find("PauseMenuScript").GetComponent<PauseMenuScript>();
     }
 

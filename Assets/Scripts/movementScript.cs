@@ -43,11 +43,13 @@ public class movementScript : MonoBehaviour
     private bool isKnight;
     private string CHAR_NAME = "Knight";
     private bool isMoving = false;
+    private bool isDead = false;
     
 
     // Start is called before the first frame update
     void Start()
     {
+        
         if (player.gameObject.name == CHAR_NAME) 
         {
             isKnight = true;
@@ -58,7 +60,7 @@ public class movementScript : MonoBehaviour
         }
 
         Application.targetFrameRate = 60;
-
+        isDead = false;
     }
 
     // Update is called once per frame
@@ -90,7 +92,7 @@ public class movementScript : MonoBehaviour
         }
         */
 
-        if (isMoving) 
+        if (isMoving && !isDead) 
         {
             player.transform.position += player.transform.right * runningSpeed * Time.deltaTime;
         }
@@ -120,7 +122,7 @@ public class movementScript : MonoBehaviour
         }
         else
         {
-
+            
             animator.SetBool("isJumping", false);
             animator.SetBool("isFalling", false);
 
@@ -295,6 +297,7 @@ public class movementScript : MonoBehaviour
 
     [HideInInspector]public IEnumerator death()
     {
+        isDead = true;
         buttons.SetActive(false);
         hitbox.enabled = false;
         rigid.velocity = Vector3.zero;
