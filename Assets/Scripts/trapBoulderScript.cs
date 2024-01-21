@@ -15,7 +15,10 @@ public class trapBoulderScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (gameObject.activeSelf)
+        {
+            Invoke("yokEt",2);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -25,5 +28,9 @@ public class trapBoulderScript : MonoBehaviour
             movement.damage();
             if(isBoulderActive) Destroy(gameObject);
         }
+    }
+    void yokEt()
+    {
+        gameObject.SetActive(false);
     }
 }

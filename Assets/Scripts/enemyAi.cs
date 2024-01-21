@@ -17,6 +17,7 @@ public class enemyAi : MonoBehaviour
     public int hp = 2;
     public int knockback = 5200;
     public bool lookingRight = true;
+    public bool attacking = false;
 
     private float distance;
     // Start is called before the first frame update
@@ -119,6 +120,7 @@ public class enemyAi : MonoBehaviour
         yield return new WaitForSeconds(0.05f);
         enemyHit.SetActive(false);
         yield return new WaitForSeconds(0.5f);
+        
         anim.SetBool("isAttacking", false);
 
 

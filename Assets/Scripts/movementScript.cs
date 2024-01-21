@@ -225,9 +225,8 @@ public class movementScript : MonoBehaviour
 
     public void jump()
     {
-        if(player.GetComponent<Rigidbody2D>().velocity.y == 0)
+        if(player.GetComponent<Rigidbody2D>().velocity.y ==0)
         player.GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpHeight;
-        
     }
 
     public void damage()

@@ -65897,6 +65897,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIs
       objectReference: {fileID: 0}
+    - target: {fileID: 1807196980780578040, guid: 2da4a21567e3c16429d959a4b7a6fa09, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1917956503}
+    - target: {fileID: 1807196980780578040, guid: 2da4a21567e3c16429d959a4b7a6fa09, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
+      objectReference: {fileID: 0}
     - target: {fileID: 2591089689682591469, guid: 2da4a21567e3c16429d959a4b7a6fa09, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0

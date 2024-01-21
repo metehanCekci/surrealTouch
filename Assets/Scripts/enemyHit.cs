@@ -6,6 +6,7 @@ public class enemyHit : MonoBehaviour
 {
     public GameObject player;
     public movementScript mv;
+    public enemyAi ai;
     
     
     // Start is called before the first frame update
