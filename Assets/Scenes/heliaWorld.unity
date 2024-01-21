@@ -20291,6 +20291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c028282fe00ecbc4b887b5a56b739d92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  computerControl: {fileID: 738861114}
   computerControlsUI: {fileID: 888925912}
   mobileControlsUI: {fileID: 1103482179}
 --- !u!4 &697232528
@@ -24930,7 +24931,6 @@ MonoBehaviour:
   enragedRunningSpeed: 3
   player: {fileID: 1878289903}
   animator: {fileID: 1878289904}
-  sprites: {fileID: 1878289909}
   arrow: {fileID: 1511334021}
   arrowPlace: {fileID: 2077046776}
   canattack: 1
@@ -24950,8 +24950,6 @@ MonoBehaviour:
   retryMenu: {fileID: 845834552}
   swordScript: {fileID: 0}
   rageM: {fileID: 1996718251}
-  goingLeft: 0
-  goingRight: 0
   lookingRight: 1
 --- !u!4 &870493813
 Transform:
