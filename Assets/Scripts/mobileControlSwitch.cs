@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class mobileControlSwitch : MonoBehaviour
 {
+    public GameObject computerControl;
     public GameObject computerControlsUI;
     public GameObject mobileControlsUI;
 
@@ -15,7 +16,27 @@ public class mobileControlSwitch : MonoBehaviour
 
     void Update()
     {
-        // Platforma göre kontrolleri güncelle
+        // Platforma göre kontrolleri güncelle, sonra da kendini yok et,
+        // not: sorun kontrollerin tekrar tekrar güncellenmesinden kaynaklanýyormuþ
+        StartCoroutine(setControl());
+    }
+
+    void ShowComputerControls()
+    {
+        
+        computerControlsUI.SetActive(true);
+        mobileControlsUI.SetActive(false);
+    }
+
+    void ShowMobileControls()
+    {
+        Destroy(computerControl);
+        computerControlsUI.SetActive(false);
+        mobileControlsUI.SetActive(true);
+    }
+
+    IEnumerator setControl() 
+    {
         if (Application.isMobilePlatform)
         {
             ShowMobileControls();
@@ -23,18 +44,10 @@ public class mobileControlSwitch : MonoBehaviour
         else
         {
             ShowComputerControls();
+            
         }
-    }
-
-    void ShowComputerControls()
-    {
-        computerControlsUI.SetActive(true);
-        mobileControlsUI.SetActive(false);
-    }
-
-    void ShowMobileControls()
-    {
-        computerControlsUI.SetActive(false);
-        mobileControlsUI.SetActive(true);
+        yield return new WaitForEndOfFrame();
+        Destroy(gameObject);
+        
     }
 }

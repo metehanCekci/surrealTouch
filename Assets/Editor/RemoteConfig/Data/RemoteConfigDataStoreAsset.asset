@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"9a9120c2-0c58-400f-8082-66abc715f461\"\r\n   
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"42189d23-554b-4f52-8283-3372b46c8c9f\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"Winter\",\r\n      \"type\": \"bool\",\r\n     
     \"value\": false\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"9a9120c2-0c58-400f-8082-66abc715f461\"\r\n   
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"42189d23-554b-4f52-8283-3372b46c8c9f\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"Winter\",\r\n      \"type\": \"bool\",\r\n     
     \"value\": false\r\n    }\r\n  }\r\n]"
   _environments: "[\r\n  {\r\n    \"projectId\": \"ce52301e-01f5-4f6b-8761-0d073fb59570\",\r\n   

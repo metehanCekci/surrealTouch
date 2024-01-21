@@ -16,7 +16,6 @@ public class movementScript : MonoBehaviour
     public float enragedRunningSpeed = 150f;
     public GameObject player;
     public Animator animator;
-    public SpriteRenderer sprites;
     public GameObject arrow;
     public GameObject arrowPlace;
     public bool canattack = true;
@@ -37,8 +36,7 @@ public class movementScript : MonoBehaviour
     public knightSwordScript swordScript;
     public rageMusic rageM;
 
-    public bool goingLeft = false;
-    public bool goingRight = false;
+    
     public bool lookingRight = true;
     private bool isKnight;
     private string CHAR_NAME = "Knight";
@@ -232,31 +230,32 @@ public class movementScript : MonoBehaviour
     public void damage()
     {
 
-        if (player.layer == 6)
+        if (player.layer == 6 && !isDead)
         {
-
-            if (hp == 1)
-            {
-                hp--;
-                sfx.playtakedamage();
-                animator.SetBool("isDying", true);
-                StartCoroutine(death());
-            }
-            else if (hp > 0)
+            if (hp > 0 && hp != 1)
             {
                 if(lookingRight)
                 {
-                    rigid.AddForce(new Vector2((-1 * knockback) * Time.deltaTime, knockback * Time.deltaTime));
+                    rigid.AddForce(new Vector2((-1 * knockback) * Time.deltaTime, knockback * Time.deltaTime), ForceMode2D.Impulse);
                 }
                 else
                 {
-                    rigid.AddForce(new Vector2((knockback) * Time.deltaTime, knockback * Time.deltaTime));
+                    rigid.AddForce(new Vector2((knockback) * Time.deltaTime, knockback * Time.deltaTime), ForceMode2D.Impulse);
                 }
                 sfx.playtakedamage();
                 hp--;
                 StartCoroutine(Iframes());
 
             }
+
+            else if (hp == 1)
+            {
+                hp--;
+                sfx.playtakedamage();
+                animator.SetBool("isDying", true);
+                StartCoroutine(death());
+            }
+            
         }
 
     }

@@ -5785,7 +5785,6 @@ MonoBehaviour:
   enragedRunningSpeed: 150
   player: {fileID: 632507780}
   animator: {fileID: 632507784}
-  sprites: {fileID: 632507785}
   arrow: {fileID: 0}
   arrowPlace: {fileID: 0}
   canattack: 1
@@ -5800,7 +5799,7 @@ MonoBehaviour:
   buttons: {fileID: 547972063}
   hitbox: {fileID: 632507791}
   rigid: {fileID: 632507790}
-  knockback: 5200
+  knockback: 150
   playerSprite: {fileID: 632507785}
   retryMenu: {fileID: 459819113}
   swordScript: {fileID: 632507792}
@@ -65507,6 +65506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c028282fe00ecbc4b887b5a56b739d92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  computerControl: {fileID: 1924151896}
   computerControlsUI: {fileID: 547972064}
   mobileControlsUI: {fileID: 547972063}
 --- !u!4 &1920436374
