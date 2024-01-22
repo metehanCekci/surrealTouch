@@ -19,6 +19,7 @@ public class movementScript : MonoBehaviour
     public GameObject arrow;
     public GameObject arrowPlace;
     public bool canattack = true;
+    public bool isAttacking = false;
     public float waitsecf = 3f;
     public float falljumpIntensity;
     public ledgeScript ledge;
@@ -64,6 +65,9 @@ public class movementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
+
         if (rage==6 && onrage==false) onRage();
         
         if(onrage)
@@ -90,7 +94,7 @@ public class movementScript : MonoBehaviour
         }
         */
 
-        if (isMoving && !isDead) 
+        if (isMoving && !isDead && (isAttacking==false || isKnight)) 
         {
             player.transform.position += player.transform.right * runningSpeed * Time.deltaTime;
         }
@@ -211,9 +215,14 @@ public class movementScript : MonoBehaviour
             }
             else 
             {
+
+                player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
                 animator.SetBool("isAttacking", true);
+                sfx.playDraw();
+                isAttacking = true;
                 StartCoroutine(attackDelay());
                 StartCoroutine(attackReset());
+                
             }
         
         
@@ -224,7 +233,23 @@ public class movementScript : MonoBehaviour
     public void jump()
     {
         if(player.GetComponent<Rigidbody2D>().velocity.y ==0)
-        player.GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpHeight;
+        if (isKnight)
+            { 
+
+                player.GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpHeight;
+
+            }
+        else
+            {
+
+                
+
+                    player.GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpHeight;
+
+                
+
+            }
+        
     }
 
     public void damage()
@@ -264,11 +289,25 @@ public class movementScript : MonoBehaviour
     {
 
         canattack = false;
+        
+        yield return new WaitForSeconds(0.5f);
+        animator.SetBool("isAttacking", false);
         yield return new WaitForSeconds(waitsecf);
         canattack = true;
-        animator.SetBool("isAttacking", false);
+       
+        
+        
 
     }
+
+    public void afterAttack()
+    {
+
+            player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+            player.GetComponent<Rigidbody2D>().velocity = Vector2.up * 0.1f;
+            isAttacking = false;
+    }
+    
 
     IEnumerator attackDelay()
     {
@@ -279,6 +318,8 @@ public class movementScript : MonoBehaviour
         cloneArrow.transform.position = (arrowPlace.transform.position);
         cloneArrow.SetActive(true);
         Destroy(cloneArrow , 3);
+        afterAttack();
+        
 
     }
 

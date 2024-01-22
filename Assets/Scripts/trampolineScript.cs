@@ -5,7 +5,7 @@ using UnityEngine;
 public class trampolineScript : MonoBehaviour
 {
 
-    public float jumpBoost = 10;
+    public float jumpBoost = 350;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +22,14 @@ public class trampolineScript : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         collision.gameObject.GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpBoost * Time.deltaTime;
+        StartCoroutine(anim());
+        
 
+    }
+    IEnumerator anim()
+    {
+        this.GetComponent<Animator>().enabled = true;
+        yield return new WaitForSeconds(0.5f);
+        this.GetComponent<Animator>().enabled = false;
     }
 }
