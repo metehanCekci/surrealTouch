@@ -8,7 +8,7 @@ public class knightSwordScript : MonoBehaviour
     public Animator anim;
     public GameObject swordHitbox;
     public float hitboxDelayFloat = 0.1f;
-    public bool onQueue = false;
+    [HideInInspector] public bool onQueue = false;
     // Start is called before the first frame update
     void Start()
     {

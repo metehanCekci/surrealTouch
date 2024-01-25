@@ -36,6 +36,7 @@ public class movementScript : MonoBehaviour
     public GameObject retryMenu;
     public knightSwordScript swordScript;
     public rageMusic rageM;
+    public boxScript box;
 
     
     public bool lookingRight = true;
@@ -43,6 +44,7 @@ public class movementScript : MonoBehaviour
     private string CHAR_NAME = "Knight";
     private bool isMoving = false;
     private bool isDead = false;
+    public bool isTouchingBox = false;
     
 
     // Start is called before the first frame update
@@ -60,6 +62,7 @@ public class movementScript : MonoBehaviour
 
         Application.targetFrameRate = 60;
         isDead = false;
+        isMoving = false;
     }
 
     // Update is called once per frame
@@ -100,7 +103,7 @@ public class movementScript : MonoBehaviour
         }
 
         
-        if (player.GetComponent<Rigidbody2D>().velocity.y > falljumpIntensity)
+        if (rigid.velocity.y > falljumpIntensity)
         {
 
             animator.SetBool("isJumping", true);
@@ -108,7 +111,7 @@ public class movementScript : MonoBehaviour
 
         }
         
-        else if (player.GetComponent<Rigidbody2D>().velocity.y < -1 * falljumpIntensity)
+        else if (rigid.velocity.y < -1 * falljumpIntensity)
         {
 
             if (player.gameObject.name == CHAR_NAME || ledge.isTouching == false)
@@ -137,7 +140,7 @@ public class movementScript : MonoBehaviour
         player.layer = 7;
         runningSpeed = enragedRunningSpeed;
         jumpHeight = enragedJumpHeight;
-        player.GetComponent<SpriteRenderer>().color = Color.yellow;
+        playerSprite.color = Color.yellow;
         rageM.playRage();
         StartCoroutine(quitRage());
 
@@ -150,7 +153,7 @@ public class movementScript : MonoBehaviour
         player.layer = 6;
         runningSpeed = runningSpeedUnchanged;
         jumpHeight = jumpHeightUnchanged;
-        player.GetComponent<SpriteRenderer>().color = Color.white;
+        playerSprite.color = Color.white;
         rage = 0;
         onrage = false;
 
@@ -216,7 +219,7 @@ public class movementScript : MonoBehaviour
             else 
             {
 
-                player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+                rigid.constraints = RigidbodyConstraints2D.FreezeAll;
                 animator.SetBool("isAttacking", true);
                 sfx.playDraw();
                 isAttacking = true;
@@ -232,23 +235,26 @@ public class movementScript : MonoBehaviour
 
     public void jump()
     {
-        if(player.GetComponent<Rigidbody2D>().velocity.y ==0)
-        if (isKnight)
-            { 
+        if (rigid.velocity.y == 0 || isTouchingBox) 
+        { 
+            if (isKnight)
+                { 
 
-                player.GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpHeight;
-
-            }
-        else
-            {
-
-                
-
-                    player.GetComponent<Rigidbody2D>().velocity += Vector2.up * jumpHeight;
+                    rigid.velocity += Vector2.up * jumpHeight;
+                    isTouchingBox = false;
+                }
+            else
+                {
 
                 
 
-            }
+                    rigid.velocity += Vector2.up * jumpHeight;
+
+                
+
+                }
+        }
+        
         
     }
 

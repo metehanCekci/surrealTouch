@@ -6,6 +6,7 @@ public class swordCollision : MonoBehaviour
 {
 
     public sfxScript sfx;
+    public movementScript movement;
     
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class swordCollision : MonoBehaviour
 
             sfx.playhit();
             collision.GetComponent<enemyAi>().takeDamage();
+            movement.rage++;
             this.gameObject.SetActive(false);
 
         }
