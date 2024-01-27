@@ -32,7 +32,7 @@ public class swordCollision : MonoBehaviour
             sfx.playhit();
             collision.GetComponent<enemyAi>().takeDamage();
             movement.rage++;
-            this.gameObject.SetActive(false);
+            gameObject.SetActive(false);
 
         }
     }

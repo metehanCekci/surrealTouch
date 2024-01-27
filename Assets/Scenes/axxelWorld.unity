@@ -5274,11 +5274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpHeight: 5.5
-  jumpHeightUnchanged: 100
-  enragedJumpHeight: 150
   runningSpeed: 2
-  runningSpeedUnchanged: 100
-  enragedRunningSpeed: 150
   player: {fileID: 632507780}
   animator: {fileID: 632507784}
   arrow: {fileID: 0}
@@ -18700,7 +18696,7 @@ MonoBehaviour:
   arrow: {fileID: 133311402}
   trpArrow: {fileID: 133311404}
   isArrowDelayed: 1
-  delay: 1
+  delay: 0.25
 --- !u!61 &587576518
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61181,7 +61177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfx: {fileID: 1702592491}
-  movement: {fileID: 0}
+  movement: {fileID: 170159326}
 --- !u!1 &1762293110
 GameObject:
   m_ObjectHideFlags: 0
@@ -62116,7 +62112,7 @@ Transform:
   m_GameObject: {fileID: 1798782165}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.674, y: -3.819047, z: -0.008797536}
+  m_LocalPosition: {x: 6.674, y: -3.791, z: -0.008797536}
   m_LocalScale: {x: 1.0171585, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

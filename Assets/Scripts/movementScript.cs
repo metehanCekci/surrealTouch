@@ -9,11 +9,11 @@ using UnityEngine.Timeline;
 public class movementScript : MonoBehaviour
 {
     public float jumpHeight = 100f;
-    public float jumpHeightUnchanged = 100f;
-    public float enragedJumpHeight = 150f;
+    private float jumpHeightUnchanged = 100f;
+    private float enragedJumpHeight = 150f;
     public float runningSpeed = 100f;
-    public float runningSpeedUnchanged = 100f;
-    public float enragedRunningSpeed = 150f;
+    private float runningSpeedUnchanged = 100f;
+    private float enragedRunningSpeed = 150f;
     public GameObject player;
     public Animator animator;
     public GameObject arrow;
@@ -63,6 +63,11 @@ public class movementScript : MonoBehaviour
         Application.targetFrameRate = 60;
         isDead = false;
         isMoving = false;
+        isTouchingBox = false;
+
+        jumpHeightUnchanged = jumpHeight;
+        runningSpeedUnchanged = runningSpeed;
+
     }
 
     // Update is called once per frame
@@ -108,7 +113,7 @@ public class movementScript : MonoBehaviour
 
             animator.SetBool("isJumping", true);
             animator.SetBool("isFalling", false);
-
+            isTouchingBox = false;
         }
         
         else if (rigid.velocity.y < -1 * falljumpIntensity)
@@ -117,12 +122,12 @@ public class movementScript : MonoBehaviour
             if (player.gameObject.name == CHAR_NAME || ledge.isTouching == false)
             {
 
-                animator.SetBool("isJumping", false);
+                animator.SetBool("isJumping", false); 
                 animator.SetBool("isFalling", true);
-
+                
             }
             
-            
+            isTouchingBox = false;
 
         }
         else
@@ -341,13 +346,13 @@ public class movementScript : MonoBehaviour
     }
 
     [HideInInspector]public IEnumerator death()
-    {
+    {   
+        rigid.constraints = RigidbodyConstraints2D.FreezeAll;
         isDead = true;
         buttons.SetActive(false);
         hitbox.enabled = false;
-        rigid.velocity = Vector3.zero;
-        rigid.gravityScale = 0;
-        
+
+
         if (isKnight) 
         {
             yield return new WaitForSeconds(1);
