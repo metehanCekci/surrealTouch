@@ -19,6 +19,7 @@ public class movementScript : MonoBehaviour
     public GameObject arrow;
     public GameObject arrowPlace;
     public bool canattack = true;
+    private int selam=1;
     public bool isAttacking = false;
     public float waitsecf = 3f;
     public float falljumpIntensity;
@@ -85,7 +86,7 @@ public class movementScript : MonoBehaviour
 
         }
 
-        /* ›K› KERE KARﬁILAﬁTIRMAYA GEREK YOK, "MOVING" DURUMU YETERL›
+        /* √ùK√ù KERE KAR√ûILA√ûTIRMAYA GEREK YOK, "MOVING" DURUMU YETERL√ù
         if (goingLeft)
         {
 
