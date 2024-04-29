@@ -13807,7 +13807,7 @@ Transform:
   m_GameObject: {fileID: 476099709}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.242437, y: -19.439657, z: -10}
+  m_LocalPosition: {x: -19.917562, y: -20.199657, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25419,11 +25419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpHeight: 4
-  jumpHeightUnchanged: 4
-  enragedJumpHeight: 4.8
   runningSpeed: 2
-  runningSpeedUnchanged: 2
-  enragedRunningSpeed: 3
   player: {fileID: 1878289903}
   animator: {fileID: 1878289904}
   arrow: {fileID: 1511334021}
@@ -25441,12 +25437,14 @@ MonoBehaviour:
   buttons: {fileID: 1103482179}
   hitbox: {fileID: 1878289910}
   rigid: {fileID: 1878289911}
-  knockback: 25
+  knockback: 5
   playerSprite: {fileID: 1878289909}
   retryMenu: {fileID: 845834552}
   swordScript: {fileID: 0}
   rageM: {fileID: 1996718251}
+  box: {fileID: 0}
   lookingRight: 1
+  isTouchingBox: 0
 --- !u!4 &870493813
 Transform:
   m_ObjectHideFlags: 0
@@ -34990,7 +34988,7 @@ Transform:
   m_GameObject: {fileID: 1217070239}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.242437, y: -19.439657, z: -10}
+  m_LocalPosition: {x: -19.917562, y: -20.199657, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -67223,11 +67221,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2318988720900544934, guid: fa600c104325977418cfbdf1b8ad10d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.11
+      value: -50.27
       objectReference: {fileID: 0}
     - target: {fileID: 2318988720900544934, guid: fa600c104325977418cfbdf1b8ad10d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.28
+      value: -0.48
       objectReference: {fileID: 0}
     - target: {fileID: 2318988720900544934, guid: fa600c104325977418cfbdf1b8ad10d7, type: 3}
       propertyPath: m_LocalPosition.z
